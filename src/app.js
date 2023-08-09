@@ -8,21 +8,21 @@ import "./assets/img/4geeks.ico";
 window.onload = function() {
   //write your code here
   let who = [
-    "The dog",
-    "My grandma",
-    "His turtle",
-    "My bird",
+    "Tu mamá",
+    "Tu abuela",
+    "El mono",
+    "Mark Zuckerberg",
     "Messi",
     "Samuel"
   ];
-  let action = ["ate", "peed", "crushed", "broke"];
-  let what = ["my homework", "the keys", "the car"];
+  let action = ["mojó", "rompió", "rayó", "reventó"];
+  let what = ["el carro", "la mesa", "el sofa", "el play", "mi cama"];
   let when = [
-    "before the class",
-    "right on time",
-    "when I finished",
-    "during my lunch",
-    "while I was praying"
+    "cuando me iba a dormir",
+    "antes de salir a trabajar",
+    "después del almuerzo",
+    "mientras yo estaba en el baño",
+    "durante una sesión de fotos"
   ];
 
   function pickRandom() {
